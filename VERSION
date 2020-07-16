@@ -1,0 +1,53 @@
+commit c967126838821a4b231d04e3f077a9f90e2e3e48
+Author: Steven An <1388372+stevesan@users.noreply.github.com>
+Date:   Thu Jul 16 17:28:01 2020 -0400
+
+    Format all space-opera and editing-adapter files (#1373)
+    
+    * Update from source: Drag drop HDR files; some CSS fixes
+    
+    * Prompt for HDR drag drop
+    
+    * Space Opera: preserve any non-object URLs for src and HDRs for convenience
+    
+    * Do not change current model if snippet src could not be fetched
+    
+    * Stop emitting bg color attribute. We never edit it.
+    
+    * When loading just a GLB, preserve some lighting and camera settings
+    
+    * Cleanup output snippet attributes
+    
+    * Shadow intensity slider: 0.1 step and 10 max
+    
+    * Switch order of the snippet to put style after the MV tag
+    
+    * Add space-opera to modelviewer.dev
+    
+    * Add button to revert base color factor to original
+    
+    * Boilerplate for reverting all other material edits; formatting is way off though;
+    
+    * Update styles for revert button
+    
+    * Update styles for revert button (#1366)
+    
+    * update styles for other tab
+    
+    * Make sure we remove tsbuildinfo cache upon clean
+    
+    * Add tooltips to revert buttons using title attribute
+    
+    * Hide revert buttons in OTHER section until we get the CSS figured out
+    
+    * Add tooltips for Other section revert buttons
+    
+    * Format gltf_model_test
+    
+    * Format gltf_model.ts
+    
+    * Format all adapter and space opera files
+    
+    * Forgot semicolon in import
+    
+    Co-authored-by: Ziyan Ma <ziyanma@usc.edu>
